@@ -1,0 +1,97 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+@font-face{
+    src: url("ZillaSlab-SemiBold.ttf");
+    font-family: Zilla;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: Zilla;
+}
+#head{
+    background-image: url("images/golden-temple.gif");
+    background-size: cover;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 0px;
+
+}
+.visit-GT{
+    width: 300px;
+    background: #82352A;
+    border-radius: 5px;
+    margin: 5.5px;
+    padding: 5px 10px 5px 10px;
+}
+.enjoy-pray{
+    width: 283px;
+    background: #82352A;
+    border-radius: 5px;
+    margin: 5.5px;
+    padding: 5px 10px 5px 10px;
+}
+#reason-section{
+        background: #EAE1D9;
+        border: 1px solid #CAAE8E;
+        padding-bottom: 35px;
+        color: #82352A;
+
+}
+.reason-heading{
+    font-size: 30px;
+    margin: 35px 20px 40px ;
+}
+.reasons{
+    display: flex;
+    justify-content: center;
+    margin: 0px 15px;
+}
+.reason-h3{
+    margin: 5px 5px;
+}
+.reason-p{
+  margin: 1px 5px;
+}
+.reason-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 10px;
+    border: 1px solid;
+}
+#guide-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+}
+#guide-card{
+    display: flex;
+    width: 400px;
+    height: 200px;
+    padding: 0px;
+    border-radius: 10px;
+    background-color: #EAE1D9;
+    padding: 23px 13px;
+    box-shadow: 0px 6px 0px #82352A;
+}
+.guide-pic{
+    width: 150px;
+    height: 200px;
+}
+.guide-info{
+    padding: 0px 10px;
+}
